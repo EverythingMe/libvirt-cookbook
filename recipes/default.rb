@@ -12,3 +12,5 @@ end
 
 $LOAD_PATH.delete("/usr/bin/../lib") # scumbag LOAD_PATH: https://github.com/opscode/chef/blob/master/bin/chef-solo#L22
 require 'libvirt'
+require 'uuidtools'
+
