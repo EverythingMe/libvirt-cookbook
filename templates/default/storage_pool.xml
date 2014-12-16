@@ -1,0 +1,12 @@
+<pool type="<%= @type %>">
+  <name><%= @name %></name>
+  <uuid><%= @uuid %></uuid>
+  <target>
+    <path><%= @path %></path>
+    <permissions>
+      <mode><%= @permissions[:mode] %></mode>
+      <owner><%= @permissions[:owner] %></owner>
+      <group><%= @permissions[:group] %></group>
+    </permissions>
+  </target>
+</pool>
