@@ -1,3 +1,5 @@
+include_recipe 'build-essential'
+
 %w(libvirt-bin libvirt-dev).each do |name|
   package name do
     action :nothing
